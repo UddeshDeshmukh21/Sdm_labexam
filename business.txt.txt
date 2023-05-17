@@ -1,0 +1,18 @@
+Business Entities:
+
+1)User: Represents individuals who interact with the Employee Requirements System (EMP). Users can have different roles such as HR administrators and managers.
+
+2)Employee: Represents the employees within the organization. Each employee has attributes like EmployeeID, FirstName, LastName, Position, and Email.
+
+3)Requirement: Represents the employee requirements defined within the EMP system. Each requirement has attributes like RequirementID, Title, Description, Deadline, Priority, and Status.
+Team: Represents the teams or groups within the organization. Each team has attributes like TeamID and Name.
+
+4)Department: Represents the departments within the organization. Each department has attributes like DepartmentID and Name.
+
+Business Operations:
+
+1)User Authentication: The EMP system should provide user authentication to verify the identity of users logging into the system. This operation ensures that only authorized individuals can access the system.
+
+2)Create User: This operation allows administrators to create new user accounts within the EMP systm. User information such as Username, Password, Email, and Role should be captured during user creation.
+
+3)Create Employee: HR administrators can create employee profiles within the system. This operation involves capturing information like EmployeeID, FirstName, LastName, Position, and Email.

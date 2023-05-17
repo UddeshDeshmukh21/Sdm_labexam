@@ -1,0 +1,45 @@
+Software Requirements Specification (SRS) Document
+
+Introduction
+
+1) Purpose
+The purpose of this document is to provide a detailed specification of the requirements for the Employee Requirements System (EMP) software. It outlines the functionality, constraints, and interfaces required for the system.
+
+2) Scope
+The EMP system aims to streamline the process of managing employee requirements within an organization. It will enable HR personnel to define, track, and manage employee requirements effectively. The system will include features for creating and assigning requirements, tracking progress, and generating reports.
+
+
+
+3 )Functional Requirements
+
+3.1 User Management
+
+The system shall provide user authentication and access control.
+The system shall support different user roles, such as HR administrators and managers.
+3.2 Employee Requirement Creation
+
+The system shall be allow HR personnel to create new employee requirements.
+Each requirement shall include details such as title, description, deadline, and priority.
+3.3 Requirement Assignment
+
+The system shall be enable HR personnel to assign requirements to individual employees.
+An employee may have multiple assigned requirements.
+The system shall support the assignment of requirements to teams or departments.
+3.4 Requirement Tracking
+
+The system shall provide a dashboard to track the progress of employee requirements.
+HR personnel should be able to view the status of each requirement (e.g- pending, in progress, completed).
+The system shall allow employees to update the status of their assigned requirements.
+3.5 Notifications and Reminders
+
+The system shall send automated notifications and reminders to employees regarding upcoming or overdue requirements.
+3.6 Reporting and Analytics
+
+The system shall generate reports and analytics on employee requirements.
+Reports may include metrics such as requirement completion rates, overdue requirements, and performance trends.
+Constraints and Assumptions
+
+The EMP system will be web-based and accessible through standard web browsers.
+The system will be developed using a specific programming language and framework .
+The system will comply with relevant data privacy and security regulations.
+The system will assume the availability of an internet connection for users.
